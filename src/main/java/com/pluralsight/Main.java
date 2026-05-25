@@ -80,6 +80,17 @@ public class Main {
         float minimum = Float.parseFloat(myScanner.nextLine());
 
         //add maxi
+        System.out.println("Enter maximum price: ");
+        float maximum = Float.parseFloat((myScanner.nextLine());
 
+        //add logic for max and min
+        for(int i = 0; i < preloadedVehicles; i++) {
+            if (vehicles[i].getPrice() >= minimum && vehicles[i].getPrice() <= maximum) {
+                displayVehicle(vehicles[i]);
+            }
+        }
     }
+    //search by color
+
+    //add vehicle
 }
